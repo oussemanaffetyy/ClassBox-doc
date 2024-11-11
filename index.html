@@ -1,0 +1,1822 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Guide ClassBox | Accueil</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/jquery.highlight.css" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/scrollbar.css" rel="stylesheet" />
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+    <!--Page Wrapper-->
+    <div class="page-wrapper">
+        <!--Sidebar-->
+        <aside id="sidebar">
+            <!--Toggle Button-->
+            <div class="button-container clearfix">
+                <div class="menu-toggle flaticon-menu10"></div>
+            </div>
+
+            <!--Menu Box-->
+            <div class="menu-box"  >
+                <!--Logo-->
+                <br />
+                <div class="logo text-right ">
+                    <a  href="#"><img  src="images/e-school-saas-sq.svg" width="119" alt="" /></a>
+                </div>
+
+                <!--Sticky Menu-->
+                <nav class="sticky-menu animated bounceInDown">
+                    <ul>
+                        <!-- normal list -->
+                        <li class="current">
+                            <a href="#introduction">Introduction <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li>
+                            <a href="#authentication">Authentification <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li>
+                            <a href="#subscription">Abonnement<span class="fa fa-arrow-right"></span></a>
+                        </li>
+
+                        <li>
+                            <a href="#dashboard">Tableau de bord <span class="fa fa-arrow-right"></span></a>
+                        </li>
+
+                        <li class='sub-menu'><a>Académique<i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#medium'>Cycle</a></li>
+                                <li><a href='#section'>Section</a></li>
+                                <li><a href='#subject'>Matière</a></li>
+                                <li><a href='#semester'>Semestre</a></li>
+                                <li><a href='#stream'>Filière</a></li>
+                                <li><a href='#shift'>Poste</a></li>
+                                <li><a href='#class'>Classe</a></li>
+                                <li><a href='#classSubject'>Matière de classe</a></li>
+                                <li><a href='#classSectionTeachers'>Section de classe & enseignants</a></li>
+                                <li><a href='#transferPromoteStudents'>Transfer and promote students</li>
+                                <li><a href='#assignRollNumber'>Attribuer un numéro de matricule</a></li>
+                            </ul>
+                        </li>
+
+                        <li class='sub-menu'><a>Étudiants<i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#admissionFormFields'>Champs du formulaire d'admission</a></li>
+                                <li><a href='#studentsAdmission'>Admission des étudiants</a></li>
+                                <li><a href='#admissionInquiries'>Demandes d'admission</a></li>
+                                <li><a href='#studentDetails'>Détails de l'étudiant</a></li>
+                                <li><a href='#studentsResetPassword'>Réinitialisation du mot de passe des étudiants</a></li>
+                                <li><a href='#addBulkData'>Ajouter des données en masse</a></li>
+                                <li><a href='#uploadProfileImages'>Télécharger des images de profil</a></li>
+                                <li><a href='#guardian'>Tuteur</a></li>
+                            </ul>
+                        </li>
+
+
+
+                        <li class='sub-menu'><a>Enseignants<i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#teachers'>Gérer les enseignants </a></li>
+                                <li><a href='#bulkUploadTeachers'>Téléchargement en masse</a></li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu'><a>Emploi du temps<i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#createTimetable'>Créer un emploi du temps </a></li>
+                                <li><a href='#teacherTimetable'>Emploi du temps des enseignants</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#holidayList"> Liste des congés <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li>
+                            <a href="#studentAssignment"> Devoir des étudiants <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li>
+                            <a href="#sliders"> Sliders <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li>
+                            <a href="#notification"> Notification <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li class='sub-menu'><a>Présence<i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#studentAttendance'>Voir la présence </a></li>
+                                <li><a href='#monthWiseAttendance'>Par mois</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#announcement"> Annonce <span class="fa fa-arrow-right"></span></a>
+                        </li>
+
+                        <li class='sub-menu'><a>Examen hors ligne<i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#manageOfflineExam'>Gérer l'examen hors ligne </a></li>
+                                <li><a href='#offlineExamResult'>Résultat de l'examen hors ligne</a></li>
+                                <li><a href='#examGrade'>Note d'examen</a></li>
+                            </ul>
+                        </li>
+
+                        <li class='sub-menu'><a>Examen en ligne<i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#manageOnlineExam'>Gérer l'examen en ligne </a></li>
+                                <li><a href='#manageQuestions'>Gérer les questions</a></li>
+                            </ul>
+                        </li>
+
+                        <li class='sub-menu'><a>Frais<i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#feesType'>Type de frais</a></li>
+                                <li><a href='#manageFees'>Gérer les frais</a></li>
+                                <li><a href='#feePaid'>Frais payés</a></li>
+                                <li><a href='#feeTransactionLogs'>Historique des transactions</a></li>
+                            </ul>
+                        </li>
+
+
+
+                        <li class='sub-menu'><a>Dépenses<i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#manageExpenseCategory'> Gérer les catégories </a></li>
+                                <li><a href='#manageExpense'>Gérer les dépenses</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class='sub-menu'><a>Paie<i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#payroll'> Gérer la paie </a></li>
+                                <li><a href='#payrollSettings'>Paramètres de la paie</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <a href="#manageSessionYears"> Gérer les années scolaires <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        
+                        <li>
+                            <a href="#gallery"> Galerie <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        
+                        <li class='sub-menu'><a>Certificats et cartes d'identité <i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#template'> Modèle </a></li>
+                                <li><a href='#studentCertificate'> Certificat étudiant </a></li>
+                                <li><a href='#staffCertificate'> Certificat du personnel </a></li>
+                                <li><a href='#idCardSettings'> Paramètres de la carte d'identité </a></li>
+                                <li><a href='#studentIDCard'> Carte d'identité étudiant </a></li>
+                                <li><a href='#staffIDCard'> Carte d'identité personnel </a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class='sub-menu'><a>Gestion du personnel <i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#roleAndPermission'> Rôle et permissions </a></li>
+                                <li><a href='#staff'> Personnel </a></li>
+                                <li><a href='#bulkUploadStaffs'> Téléchargement en masse </a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class='sub-menu'><a>Congés du personnel <i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#staffLeave'> Congés du personnel </a></li>
+                                <li><a href='#staffLeave'> Rapport de congés </a></li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <a href="#support"> Support <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        
+                        <li class='sub-menu'><a>Paramètres du site Web <i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#content'> Contenu </a></li>
+                                <li><a href='#faqs'> FAQ </a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class='sub-menu'><a>Paramètres du système <i class='fa fa-caret-down right'></i></a>
+                            <ul>
+                                <li><a href='#generalSettings'> Paramètres généraux </a></li>
+                                <li><a href='#leaveSettings'>Paramètres des congés</a></li>
+                                <li><a href='#onlineExamTermsCondition'>Conditions d'examen en ligne</a></li>
+                                <li><a href='#emailTemplate'>Modèle d'email</a></li>
+                                <li><a href='#paymentSettings'>Paramètres de paiement</a></li>
+                                <li><a href='#thirdPartyAPI'>APIs tiers</a></li>
+                                <li><a href='#termsAndConditions'>Conditions générales</a></li>
+                                <li><a href='#privacyPolicy'>Politique de confidentialité</a></li>
+                                <li><a href='#refundCancellation'>Politique de remboursement</a></li>
+                            </ul>
+                        </li>
+                        
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="copyright">Copyright &copy; <a href="dev@classbox.online">ClassBox</a> 2024</div>
+        </aside>
+
+        <div id="content-section">
+            <!--Introduction Section-->
+            <section class="section introduction" id="introduction">
+                <br />
+                <div class="sec-content">
+                    <h2>Guide d'administration de ClassBox </h2>
+                    <h3>Documentation</h3>
+                    <div class="separator"></div>
+                    <strong>Par :</strong> ClassBox<br />
+                    <strong>Email :</strong>
+                    <a href="mailto:dev@classbox.online">dev@classbox.online</a> <br />
+            
+                    <br />
+                    <h4>
+                        Merci d'utiliser <strong>ClassBox</strong>.
+                        Dans ce document, vous trouverez plus d'informations sur les fonctionnalités pour les administrateurs scolaires et leur mode de fonctionnement, ainsi que quelques guides d'utilisation.
+                    </h4>
+                    <br />
+            
+                    <h4> Tous les champs marqués d'un (*) sont obligatoires.
+                    </h4>
+                    <br />
+                    <h4> Toute donnée supprimée sera d'abord déplacée dans la corbeille. Depuis la corbeille, l'administrateur peut restaurer les données ou les supprimer définitivement.
+                    </h4>
+                </div>
+            </section>
+            
+            <!--Authentication-->
+            <section class="section html-structure" id="authentication">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-large"></span>
+                    <h2>Authentification</h2>
+                </div>
+                <br />
+                <img src="images/school-login-signup.png" alt="e-School SaaS">
+                <br />
+                <br />
+                <img src="images/school-registration.png" alt="e-School SaaS">
+                <br />
+                <br />
+                <img src="images/school-login.png" alt="e-School SaaS">
+                <br />
+                <br />
+                <ul>
+                    <li>
+                        <h2>
+                            L'administrateur de l'école peut accéder au système en utilisant l'email administrateur et le contact administrateur comme mot de passe.
+                            Après une connexion réussie, l'administrateur peut accéder aux fonctionnalités par défaut, même sans abonnement actif. Les fonctionnalités par défaut incluent la gestion des étudiants, la gestion académique, la gestion des enseignants et la gestion des années scolaires.
+                        </h2>
+                    </li>
+                </ul>
+            </section>
+            
+            <!-- TODO: Update the school subscription module here, buy package, update, delete and add-on related warning...
+                
+                School subscription -->
+                <section class="section html-structure" id="subscription">
+                    <div class="sec-title">
+                        <span class="icon fa fa-th-large"></span>
+                        <h2>Abonnement</h2>
+                    </div>
+                
+                    <br />
+                    <img src="images/free-trial.png" alt="e-School SaaS" style="width: 100%;">
+                    <br />
+                    <br />
+                    <ul>
+                        <li>
+                            <h2>
+                                Si l'école n'a pas de forfait actif, elle peut en acheter un dans Abonnement -> Plans, comme illustré dans l'image.
+                            </h2>
+                        </li>
+                        <br />
+                        <li>
+                            <h2>
+                                L'administrateur de l'école peut acheter un forfait d'essai si celui-ci est activé par le super administrateur. Le forfait d'essai ne peut être acheté qu'une seule fois. Si l'école a déjà acheté un autre forfait, elle ne pourra pas acheter le forfait d'essai.
+                            </h2>
+                        </li>
+                        </br>
+                        <li>
+                            <h2>
+                                Une fois le forfait souscrit, il ne peut pas être annulé. Le forfait futur de l'école sera par défaut identique au forfait actuel.
+                            </h2>
+                        </li>
+                        <br />
+                        <li>
+                            <h2>
+                                L'administrateur de l'école peut mettre à jour le forfait actuel. Si l'administrateur met à jour le forfait actuel, le nouveau forfait commencera immédiatement. L'administrateur de l'école peut également annuler ou mettre à jour le plan à venir.
+                            </h2>
+                        </li>
+                        <br />
+                        <li>
+                            <h2>
+                                L'administrateur de l'école disposera d'un délai, défini par le super administrateur, pour payer les factures précédentes. Si l'administrateur de l'école ne paie pas les factures dans le délai imparti, l'école sera désactivée et tout forfait actif sera annulé.
+                            </h2>
+                        </li>
+                        <br />
+                        <li>
+                            <h2>
+                                L'administrateur de l'école peut acheter des modules complémentaires si nécessaire. Une fois ajoutés au cycle en cours, les modules complémentaires ne peuvent pas être annulés. Ils expireront avec le forfait souscrit.
+                            </h2>
+                        </li>
+                        <br />
+                    </ul>
+                    <br />
+                </section>
+                
+
+            <!-- Dashboard -->
+            <section class="section html-structure" id="dashboard">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-large"></span>
+                    <h2>Tableau de bord</h2>
+                </div>
+                <img src="images/dashboard.png" alt="e-School SaaS" style="width: 100%;">
+                <br />
+                <br />
+            </section>
+            
+            <!-- Langue d'enseignement -->
+            <section class="section html-structure" id="medium">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-large"></span>
+                    <h2>Cycle</h2>
+                </div>
+                <img src="images/medium.png" alt="e-School SaaS" style="width: 100%;">
+                <br />
+                <br />
+                <ul>
+                    <li>
+                        <h2>
+                            Le cycle d'enseignement correspond à la période de formation organisée . L'administrateur de l'école doit ajouter au moins un cycle d'enseignement.
+                        </h2>
+                    </li>
+                    <br />
+                </ul>
+            </section>
+            
+            <!-- Section -->
+            <section class="section html-structure" id="section">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-large"></span>
+                    <h2>Section</h2>
+                </div>
+                <img src="images/section.png" alt="e-School SaaS" style="width: 100%;">
+                <br />
+                <br />
+                <ul>
+                    <li>
+                        <h2>
+                            La section est considérée ici comme une division. L'administrateur de l'école doit ajouter au moins une valeur de section.
+                        </h2>
+                    </li>
+                    <br />
+                </ul>
+            </section>
+            
+            <!-- Sujet -->
+            <section class="section html-structure" id="subject">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-large"></span>
+                    <h2>Sujet</h2>
+                </div>
+                <img src="images/create-subject.png" alt="e-School SaaS" style="width: 100%;">
+                <br />
+                <br />
+                <img src="images/list-subject.png" alt="e-School SaaS" style="width: 100%;">
+                <br />
+                <br />
+                <ul>
+                    <li>
+                        <h2>
+                            L'administrateur de l'école peut gérer les sujets ici. Tous les sujets doivent être ajoutés, indépendamment de la classe.
+                        </h2>
+                    </li>
+                    <br />
+                </ul>
+            </section>
+            
+            <!-- Semestre -->
+            <section class="section html-structure" id="semester">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-large"></span>
+                    <h2>Semestre</h2>
+                </div>
+                <img src="images/semester.png" alt="e-School SaaS" style="width: 100%;">
+                <br />
+                <br />
+                <ul>
+                    <li>
+                        <h2>
+                            L'administrateur de l'école peut gérer les semestres ici. Un mois inclus dans un semestre ne doit pas être utilisé dans un autre semestre.
+                        </h2>
+                    </li>
+                    <br />
+                    <li>
+                        <h2>
+                            Exemple correct : Premier semestre (janvier-juin) - Deuxième semestre (juillet-décembre)
+                        </h2>
+                    </li>
+                    <br />
+                    <li>
+                        <h2>
+                            Exemple incorrect : Premier semestre (janvier-juillet) - Deuxième semestre (juin-décembre). Ici, le mois de juin est inclus dans les deux semestres, ce qui est incorrect.
+                        </h2>
+                    </li>
+                    <br />
+                </ul>
+            </section>
+            
+            <!-- Filières -->
+            <section class="section html-structure" id="stream">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-large"></span>
+                    <h2>Filières</h2>
+                </div>
+                <img src="images/streams.png" alt="e-School SaaS" style="width: 100%;">
+                <br />
+                <br />
+            </section>
+            
+            <!-- Poste -->
+            <section class="section html-structure" id="shift">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-large"></span>
+                    <h2>Poste</h2>
+                </div>
+                <img src="images/school-shift.png" alt="e-School SaaS" style="width: 100%;">
+                <br />
+                <br />
+            </section>
+            
+            <!-- Classe -->
+            <section class="section html-structure" id="class">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-large"></span>
+                    <h2>Classe</h2>
+                </div>
+                <img src="images/create-class.png" alt="e-School SaaS" style="width: 100%;">
+                <br />
+                <br />
+                <img src="images/list-class.png" alt="e-School SaaS" style="width: 100%;">
+                <br />
+                <br />
+                <h1>
+                    Modifier la classe
+                </h1>
+                <br />
+                <img src="images/edit-class.png" alt="e-School SaaS" style="width: 100%;">
+                <br />
+                <br />
+                <ul>
+                    <li>
+                        <h2>
+                            Si l'administrateur de l'école supprime la classe, alors ses subdivisions, semestres, matières et autres données associées seront également supprimées.
+                        </h2>
+                    </li>
+                    <br />
+                </ul>
+            </section>
+            
+
+           <!-- Sujet de la classe -->
+<section class="section html-structure" id="classSubject">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Sujet de la classe</h2>
+    </div>
+    <img src="images/list-class-subjects.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <h1>Assigner un sujet à la classe</h1>
+    <img src="images/assign-class-subject.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Ici, l'administrateur de l'école peut assigner des matières aux classes. Une classe peut avoir des matières de base et des matières optionnelles.
+                Les matières de base sont obligatoires pour les élèves.
+            </h2>
+        </li>
+        <br />
+        <li>
+            <h2>
+                Une matière faisant partie du groupe de base ne peut pas faire partie du groupe optionnel, et inversement.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Section de la classe et enseignants -->
+<section class="section html-structure" id="classSectionTeachers">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Section de la classe et enseignants</h2>
+    </div>
+    <img src="images/assign-class-section-teachers.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur de l'école peut assigner un professeur principal ou un professeur de matière à n'importe quelle classe. Une classe peut avoir plusieurs professeurs principaux et chaque matière peut avoir plusieurs enseignants.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Transférer et promouvoir les élèves -->
+<section class="section html-structure" id="transferPromoteStudents">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Transférer et promouvoir les élèves</h2>
+    </div>
+
+    <br />
+    <h1>Transférer des élèves</h1>
+    <br />
+    <img src="images/transfer-students.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur de l'école peut transférer un élève d'une section à une autre.
+            </h2>
+        </li>
+    </ul>
+    <br>
+    <h1>Promouvoir les élèves</h1>
+    <br />
+    <img src="images/promote-students.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur de l'école peut promouvoir les élèves d'une année scolaire à une autre.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Assigner un numéro de matricule -->
+<section class="section html-structure" id="assignRollNumber">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Assigner un numéro de matricule</h2>
+    </div>
+    <img src="images/change-roll-number.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur de l'école peut modifier le numéro de matricule en fonction du prénom ou du nom de famille de l'élève.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Champs du formulaire d'admission -->
+<section class="section html-structure" id="admissionFormFields">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Champs du formulaire d'admission</h2>
+    </div>
+    <img src="images/admission-form-fields.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur de l'école peut ajouter des champs supplémentaires ici. Les champs ajoutés seront reflétés dans le formulaire d'admission des élèves.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Admission des élèves -->
+<section class="section html-structure" id="studentsAdmission">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Admission des élèves</h2>
+    </div>
+    <img src="images/student-admission.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <img src="images/student-admission-2.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Si l'école dispose d'un forfait actif lors de l'ajout d'un élève, l'administrateur de l'école peut changer le statut de l'élève (actif ou inactif). Si l'école n'a pas de forfait, le statut de l'élève sera par défaut inactif.
+            </h2>
+        </li>
+        <br>
+        <li>
+            <h2>
+                Lors de l'ajout d'un nouvel élève, l'administrateur de l'école peut rechercher le tuteur par e-mail et l'assigner au nouvel élève. Si aucun tuteur avec cet e-mail n'existe, l'administrateur peut créer un nouveau tuteur en même temps que l'élève.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Inscriptions -->
+<section class="section html-structure" id="admissionInquiries">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Inscriptions</h2>
+    </div>
+    <img src="images/admission-inquiries.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                La section des demandes en ligne affiche une liste des candidatures, permettant aux administrateurs d'approuver ou de rejeter chaque candidature. Ils peuvent également envoyer des e-mails automatiques aux parents pour les informer du statut de la candidature.
+            </h2>
+        </li>
+        <br>
+    </ul>
+</section>
+
+<!-- Détails des élèves -->
+<section class="section html-structure" id="studentDetails">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Détails des élèves</h2>
+    </div>
+    <img src="images/list-students.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur de l'école peut voir tous les élèves par classe-section et par année scolaire.
+            </h2>
+        </li>
+        <br />
+        <li>
+            <h2>
+                L'administrateur de l'école ne peut activer les élèves que si l'école dispose d'un forfait actif. Une fois activé, l'élève sera ajouté à la facture.
+            </h2>
+        </li>
+        <br />
+        <li>
+            <h2>
+                L'administrateur de l'école peut mettre à jour ou supprimer un élève. Si un élève est supprimé, il sera définitivement supprimé.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Réinitialisation du mot de passe des élèves -->
+<section class="section html-structure" id="StudentsResetPassword">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Réinitialisation du mot de passe des élèves</h2>
+    </div>
+    <img src="images/reset-password.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur de l'école peut voir toutes les demandes de réinitialisation de mot de passe et les accepter ou les rejeter.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Téléchargement en masse -->
+<section class="section support" id="addBulkData">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Ajouter des données d'élèves en masse</h2>
+    </div>
+    <br />
+    <img src="images/bulk-upload.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Veuillez ne pas modifier le contenu du fichier CSV de démonstration, sauf si vous souhaitez effectuer une modification.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+
+ <!-- Télécharger les images de profil -->
+<section class="section support" id="uploadProfileImages">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Télécharger les images de profil</h2>
+    </div>
+
+    <br />
+    <img src="images/upload-bulk-profile.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Les administrateurs peuvent télécharger en masse les images de profil pour les élèves et les parents, simplifiant ainsi la gestion des profils utilisateurs.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Tuteur -->
+<section class="section support" id="guardian">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Tuteur</h2>
+    </div>
+
+    <br />
+    <img src="images/list-guardian.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+</section>
+
+<!-- Enseignants -->
+<section class="section support" id="manageTeachers">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Enseignants</h2>
+    </div>
+
+    <br />
+    <img src="images/create-teacher.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Si l'école dispose d'un forfait actif lors de l'ajout d'un enseignant, l'administrateur peut modifier son statut (actif ou inactif). Si l'école n'a pas de forfait, le statut de l'enseignant sera par défaut inactif.
+            </h2>
+        </li>
+        <br />
+        <li>
+            <h2>
+                L'administrateur ne peut activer les enseignants que si l'école dispose d'un forfait actif. Une fois activé, l'enseignant sera ajouté à la facturation.
+            </h2>
+        </li>
+        <br />
+        <li>
+            <h2>
+                L'administrateur peut mettre à jour ou supprimer un enseignant. Avant de supprimer un enseignant, toutes les données associées doivent être supprimées.
+            </h2>
+        </li>
+        <br>
+        <li>
+            <h2>
+                L'enseignant peut se connecter avec l'e-mail fourni, le mot de passe par défaut étant son numéro de téléphone.
+            </h2>
+        </li>
+        <br>
+        <li>
+            <h2>
+                Les administrateurs peuvent gérer les salaires des enseignants en ajoutant des allocations ou des déductions, garantissant des ajustements précis de la paie.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Téléchargement en masse des enseignants -->
+<section class="section support" id="bulkUploadTeachers">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Téléchargement en masse des enseignants</h2>
+    </div>
+
+    <br />
+    <img src="images/bulk-upload-teachers.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Les administrateurs peuvent télécharger en masse les données des enseignants en utilisant un fichier CSV, ce qui permet d'ajouter ou de mettre à jour plusieurs profils d'enseignants à la fois.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Créer un emploi du temps -->
+<section class="section support" id="createTimetable">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Créer un emploi du temps</h2>
+    </div>
+
+    <br />
+    <img src="images/list-timetable.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <img src="images/create-timetable.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'heure de début et de fin des cours sera la même pour toutes les classes.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Emploi du temps des enseignants -->
+<section class="section support" id="teacherTimetable">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Emploi du temps des enseignants</h2>
+    </div>
+
+    <br />
+    <img src="images/teachers-timetable.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <img src="images/teacher-timetable-view.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut consulter l'emploi du temps des enseignants ici. Il n'est pas possible de modifier les données d'emploi du temps ici.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Liste des jours fériés -->
+<section class="section support" id="holidayList">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Liste des jours fériés</h2>
+    </div>
+
+    <br />
+    <img src="images/create-holiday.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <img src="images/list-holidays.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+</section>
+
+<!-- Devoirs des élèves -->
+<section class="section support" id="studentAssignment">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Devoirs des élèves</h2>
+    </div>
+
+    <br />
+    <img src="images/student-assignment-submission.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut voir toutes les soumissions de devoirs, mais ne peut ni accepter ni rejeter les soumissions.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Curseurs (Sliders) -->
+<section class="section support" id="sliders">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Curseurs</h2>
+    </div>
+
+    <br />
+    <img src="images/sliders.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut gérer les curseurs ici. Ils apparaîtront dans l'application mobile des parents/élèves et sur le site web de l'école.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Notifications -->
+<section class="section support" id="notification">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Notifications</h2>
+    </div>
+
+    <br />
+    <img src="images/notification.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut envoyer des notifications à des utilisateurs spécifiques ou à tous les utilisateurs du système. Les notifications envoyées d'ici ne seront pas ajoutées au tableau d'annonces.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Présence des élèves -->
+<section class="section support" id="studentAttendance">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Présence des élèves</h2>
+    </div>
+
+    <br />
+    <img src="images/student-attendance.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut consulter la présence des élèves ici. Seuls les enseignants principaux peuvent enregistrer la présence des élèves.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Présence mensuelle des élèves -->
+<section class="section support" id="monthWiseAttendance">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Présence mensuelle des élèves</h2>
+    </div>
+
+    <br />
+    <img src="images/month-wise-student-attendance.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <ul>
+        <li>
+            <h2>
+                Les administrateurs peuvent voir des rapports de présence mensuels pour chaque classe, offrant une vue d'ensemble détaillée de la présence des élèves pour le mois sélectionné.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Annonces -->
+<section class="section support" id="announcement">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Annonces</h2>
+    </div>
+
+    <br />
+    <img src="images/announcement.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut gérer les annonces ici. Les annonces envoyées ici seront affichées dans la section des annonces de l'application des élèves et des parents.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Gérer les examens hors ligne -->
+<section class="section support" id="manageOfflineExam">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Gérer les examens hors ligne</h2>
+    </div>
+
+    <br />
+    <img src="images/create-exam.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <img src="images/list-exams.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <img src="images/create-exam-timetable.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut gérer les examens hors ligne ici. Une fois le résultat publié, les élèves et les parents peuvent le consulter dans l'application.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+<!-- Résultat des examens hors ligne -->
+<section class="section support" id="offlineExamResult">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Résultat des examens hors ligne</h2>
+    </div>
+
+    <br />
+    <img src="images/offline-exam-result.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+</section>
+
+<!-- Notes d'examen -->
+<section class="section support" id="examGrade">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Notes d'examen</h2>
+    </div>
+
+    <br />
+    <img src="images/manage-grade.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <h2>
+        L'administrateur doit saisir une plage de notes de 0 à 100. Il est nécessaire de créer les notes avant que les enseignants ne puissent soumettre les résultats.
+    </h2>
+    <br>
+</section>
+
+<!-- Examen en ligne -->
+<section class="section support" id="manageOnlineExam">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Gérer les examens en ligne</h2>
+    </div>
+
+    <br />
+    <img src="images/online-exam.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <img src="images/add-question-1.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <img src="images/add-question-2.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <img src="images/online-exam-result.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut gérer les examens en ligne ici et également consulter les résultats.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Gérer les questions -->
+<section class="section support" id="manageQuestions">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Gérer les questions</h2>
+    </div>
+
+    <img src="images/add-question-1.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <img src="images/add-question-2.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut gérer les questions ici.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Types de frais -->
+<section class="section support" id="feesType">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Types de frais</h2>
+    </div>
+
+    <img src="images/create-fee-type.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <img src="images/list-fee-types.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+</section>
+
+<!-- Gérer les frais -->
+<section class="section support" id="manageFees">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Gérer les frais</h2>
+    </div>
+
+    <img src="images/create-class-fees.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <img src="images/compulsory-fee-installment.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <img src="images/optional-fees.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <ul>
+        <li>
+            <h2>
+                Avant de configurer les frais, l'administrateur doit ajouter les détails de paiement dans les paramètres système.
+            </h2>
+        </li>
+        <br />
+        <li>
+            <h2>
+                Si un parent ou un administrateur a payé des frais facultatifs, l'administrateur ne peut pas modifier les frais obligatoires ou facultatifs, seuls de nouveaux frais facultatifs peuvent être ajoutés.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Frais payés -->
+<section class="section support" id="feePaid">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Frais payés</h2>
+    </div>
+
+    <img src="images/list-fees-paid.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <img src="images/pay-compulsory-fee.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <img src="images/pay-compulsory-fee-installment.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <img src="images/pay-optional-fees.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br>
+    <ul>
+        <li>
+            <h2>
+                Les versements ne sont pas autorisés pour les frais facultatifs.
+            </h2>
+        </li>
+        <br />
+        <li>
+            <h2>
+                L'administrateur peut enregistrer manuellement le paiement des frais d'un élève.
+            </h2>
+        </li>
+        <br />
+        <li>
+            <h2>
+                L'administrateur/utilisateur peut payer un montant supplémentaire avec le montant de l'acompte. Si le montant de l'acompte est payé, seul le montant d'avance peut être payé pendant la durée de l'acompte.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+<!-- Journal des transactions de frais -->
+<section class="section support" id="feeTransactionLogs">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Journal des transactions de frais</h2>
+    </div>
+
+    <img src="images/fees-transaction-logs.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+</section>
+
+<!-- Gérer les catégories de dépenses -->
+<section class="section support" id="manageExpenseCategory">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Gérer les catégories de dépenses</h2>
+    </div>
+
+    <img src="images/manage-expense-category.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+</section>
+
+<!-- Gérer les dépenses -->
+<section class="section support" id="manageExpense">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Gérer les dépenses</h2>
+    </div>
+
+    <img src="images/create-expense.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <img src="images/list-expense.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+</section>
+
+<!-- Paie -->
+<section class="section support" id="payroll">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Paie</h2>
+    </div>
+
+    <img src="images/payroll.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut désormais télécharger le bulletin de salaire de l'employé.
+            </h2>
+        </li>
+        <br />
+    </ul>
+</section>
+
+
+   <!-- Paramètres de la paie -->
+<section class="section support" id="payrollSettings">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Paramètres de la paie</h2>
+    </div>
+    <img src="images/payrollSettings.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Les administrateurs peuvent ajouter ici des allocations et des déductions pour le personnel, les attribuer lors de la création de personnel, et éditer la structure salariale pour les membres existants.
+            </h2>
+        </li>
+    </ul>
+    <br />
+</section>
+
+<!-- Gérer les années de session -->
+<section class="section support" id="manageSessionYears">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Gérer les années de session</h2>
+    </div>
+    <img src="images/create-session-year.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <img src="images/list-session-years.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                À un moment donné, seule une année de session peut être active. La session active sera considérée comme l'année par défaut.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Galerie -->
+<section class="section support" id="gallery">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Galerie</h2>
+    </div>
+    <img src="images/create-gallery.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <img src="images/list-gallery.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur de l'école peut ajouter des images et des vidéos YouTube dans la galerie.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Modèles -->
+<section class="section html-structure" id="template">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Modèle</h2>
+    </div>
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut créer des modèles de certificats selon les besoins.
+            </h2>
+        </li>
+    </ul>
+    <img src="images/create-template-1.png" alt="e-School Saas" style="width: 100%;">
+    <img src="images/create-template-2.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut voir tous les modèles ici et doit configurer la mise en page comme indiqué.
+            </h2>
+        </li>
+    </ul>
+    <img src="images/list-certificate-templates.png" alt="e-School Saas" style="width: 100%;">
+    <img src="images/certificate-template-layout.png" alt="e-School Saas" style="width: 100%;">
+</section>
+
+<!-- Certificat d'étudiant -->
+<section class="section html-structure" id="studentCertificate">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Certificat d'étudiant</h2>
+    </div>
+    <img src="images/student-certificates.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut voir tous les certificats des étudiants et générer des certificats en sélectionnant les étudiants.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Certificat de personnel -->
+<section class="section html-structure" id="staffCertificate">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Certificat de personnel</h2>
+    </div>
+    <img src="images/staff-certificates.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut voir tous les certificats du personnel et générer des certificats en sélectionnant les membres du personnel.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Paramètres de la carte d'identité -->
+<section class="section html-structure" id="idCardSettings">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Paramètres de la carte d'identité</h2>
+    </div>
+    <br />
+    <section class="section support" id="certificateTemplate">
+        <div class="sec-title">
+            <span class="icon fa fa-support"></span>
+            <h2>Modèle de certificat</h2>
+        </div>
+        <img src="images/createTemplates.png" alt="e-School Saas" style="width: 100%;">
+        <br />
+        <img src="images/createLayout.png" alt="e-School Saas" style="width: 100%;">
+        <br />
+        <img src="images/generateCertificate.png" alt="e-School Saas" style="width: 100%;">
+        <br />
+        <img src="images/certificate.png" alt="e-School Saas" style="width: 100%;">
+        <br />
+        <ul>
+            <li>
+                <h2><strong>Choisir le type de certificat:</strong> Sélectionnez le type de certificat pour les étudiants ou le personnel.</h2>
+            </li>
+            <li>
+                <h2><strong>Remplir les champs nécessaires:</strong> Entrez les informations requises telles que nom, mise en page, hauteur, largeur, image de fond et description.</h2>
+            </li>
+            <li>
+                <h2><strong>Inclure les données utilisateur:</strong> Cochez cette option pour inclure des données utilisateur dans le certificat.</h2>
+            </li>
+            <li>
+                <h2><strong>Enregistrer le modèle de certificat:</strong> Enregistrez le modèle une fois les détails saisis.</h2>
+            </li>
+            <li>
+                <h2><strong>Définir la mise en page:</strong> Utilisez le glisser-déposer pour organiser les éléments et sauvegarder la mise en page.</h2>
+            </li>
+            <li>
+                <h2><strong>Générer des certificats:</strong> Sélectionnez les utilisateurs et générez les certificats.</h2>
+            </li>
+            <li class="text-danger">
+                <h2><strong>Note:</strong> Sélectionnez un examen et une session pour générer des certificats d'examen des étudiants.</h2>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Carte d'identité -->
+    <section class="section support" id="idCardSettings">
+        <div class="sec-title">
+            <span class="icon fa fa-support"></span>
+            <h2>Carte d'identité</h2>
+        </div>
+        <img src="images/IDCardSettings.png" alt="e-School Saas" style="width: 100%;">
+        <br />
+        <img src="images/generateIDCard.png" alt="e-School Saas" style="width: 100%;">
+        <br />
+        <img src="images/IDCard.png" alt="e-School Saas" style="width: 100%;">
+        <br />
+        <ul>
+            <li>
+                <h2>
+                    L'administrateur peut gérer les paramètres de la carte d'identité des étudiants et du personnel.
+                </h2>
+            </li>
+        </ul>
+        <img src="images/student-id-cart-setting.png" alt="e-School Saas" style="width: 100%;">
+        <img src="images/student-id-cart-setting-2.png" alt="e-School Saas" style="width: 100%;">
+        <img src="images/staff-certificate-setting.png" alt="e-School Saas" style="width: 100%;">
+        <img src="images/staff-certificate-setting-2.png" alt="e-School Saas" style="width: 100%;">
+    </section>
+</section>
+
+<!-- Générer la carte d'identité des étudiants -->
+<section class="section html-structure" id="studentIDCard">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Générer la carte d'identité des étudiants</h2>
+    </div>
+    <img src="images/generate-student-id-card.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut générer la carte d'identité des étudiants.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Générer la carte d'identité du personnel -->
+<section class="section html-structure" id="staffIDCard">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Générer la carte d'identité du personnel</h2>
+    </div>
+    <img src="images/generate-staff-id-card.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut générer la carte d'identité du personnel.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Rôle et permission -->
+<section class="section support" id="roleAndPermission">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Rôle & Permissions</h2>
+    </div>
+    <img src="images/list-roles.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <img src="images/create-role.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Les rôles suivants sont réservés : Super Admin, Admin de l'école, Enseignant, Tuteur, Étudiant.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Personnel -->
+<section class="section support" id="staff">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Personnel</h2>
+    </div>
+    <img src="images/create-staff.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Le mot de passe par défaut des membres du personnel est leur numéro de téléphone.
+            </h2>
+        </li>
+        <li>
+            <h2>
+                Si l'école dispose d'un forfait actif, l'administrateur peut modifier le statut du personnel (actif ou inactif).
+            </h2>
+        </li>
+        <li>
+            <h2>
+                L'administrateur peut activer les membres du personnel uniquement si l'école a un forfait actif.
+            </h2>
+        </li>
+        <li>
+            <h2>
+                L'administrateur peut mettre à jour ou supprimer le personnel. La suppression est définitive.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Téléchargement en masse du personnel -->
+<section class="section support" id="bulkUploadStaffs">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Téléchargement en masse du personnel</h2>
+    </div>
+    <br />
+    <img src="images/staff-bulk-upload.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Gérer facilement le personnel avec la fonctionnalité de téléchargement en masse. Téléchargez plusieurs membres avec un fichier CSV.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Congés du personnel -->
+<section class="section support" id="staffLeave">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Congés du personnel</h2>
+    </div>
+    <img src="images/staffLeave.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <img src="images/view-leave.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <img src="images/leaveReport.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Gérez efficacement les demandes de congé du personnel. Les membres peuvent soumettre leurs demandes et des documents.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+   <!-- Rapport de congés -->
+<section class="section support" id="leaveReport">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Rapport de congés</h2>
+    </div>
+    <img src="images/leave-report.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+</section>
+
+<!-- Support -->
+<section class="section support" id="support">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Support</h2>
+    </div>
+    <img src="images/support.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur de l'école peut contacter l'équipe de support assignée par le super administrateur.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Paramètres du site -->
+<section class="section support" id="content">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Contenu</h2>
+    </div>
+    <img src="images/content.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Permettez aux administrateurs d'école de personnaliser la mise en page, les couleurs, le contenu et les images de leur site web via notre panneau d'administration.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- FAQ -->
+<section class="section support" id="faqs">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>FAQs</h2>
+    </div>
+    <img src="images/faqs.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Améliorez l'expérience utilisateur en ajoutant une section de questions fréquentes pour fournir des informations claires et utiles.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Paramètres généraux -->
+<section class="section support" id="generalSettings">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Paramètres généraux</h2>
+    </div>
+    <img src="images/general-setting.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <img src="images/roll-number-setting.png" alt="e-School Saas" style="width: 100%;">
+</section>
+
+<!-- Paramètres des congés -->
+<section class="section support" id="leaveSettings">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Paramètres des congés</h2>
+    </div>
+    <img src="images/leave-settings.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur de l'école doit configurer ces détails pour que le personnel puisse faire des demandes de congé.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Conditions de l'examen en ligne -->
+<section class="section support" id="onlineExamTermsCondition">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Conditions de l'examen en ligne</h2>
+    </div>
+    <img src="images/online-exam-terms-condition.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Avant de commencer l'examen en ligne, les étudiants verront ces conditions d'utilisation.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Modèle d'email -->
+<section class="section support" id="emailTemplate">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Modèle d'email</h2>
+    </div>
+    <img src="images/email-template.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                L'administrateur peut créer des modèles d'email personnalisés pour les nouvelles inscriptions d'élèves, de personnel ou d'enseignants, incluant les identifiants et informations clés.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Paramètres de paiement -->
+<section class="section support" id="paymentSettings">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Paramètres de paiement</h2>
+    </div>
+    <img src="images/payment-configuration.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Nous proposons deux passerelles de paiement : Stripe et Razorpay, pour des transactions sécurisées et flexibles.
+            </h2>
+        </li>
+        <li>
+            <h2>
+                1. <a href="https://stripe.com" target="_blank">Stripe</a>
+            </h2>
+        </li>
+        <li>
+            <h2>
+                2. <a href="https://razorpay.com" target="_blank">Razorpay</a>
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- API tierces -->
+<section class="section html-structure" id="thirdPartyAPI">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>API tierces</h2>
+    </div>
+    <img src="images/third-party-apis.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Mise en place de Google reCAPTCHA pour renforcer la sécurité en empêchant les soumissions automatisées.
+            </h2>
+        </li>
+        <li>
+            <h2>Formulaire d'admission en ligne des étudiants</h2>
+        </li>
+        <li>
+            <h2>Formulaire de contact</h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Conditions générales -->
+<section class="section html-structure" id="termsAndConditions">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Conditions générales</h2>
+    </div>
+    <img src="images/terms-and-conditions.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+</section>
+
+<!-- Politique de confidentialité -->
+<section class="section html-structure" id="privacyPolicy">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Politique de confidentialité</h2>
+    </div>
+    <img src="images/privacy-policy.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+    <ul>
+        <li>
+            <h2>
+                Utilisez cette URL (votre-panneau-admin/page/politique-de-confidentialité) pour l'App Store et le Google Play Store au moment du déploiement.
+            </h2>
+        </li>
+    </ul>
+</section>
+
+<!-- Politique de remboursement et annulation -->
+<section class="section html-structure" id="refundCancellation">
+    <div class="sec-title">
+        <span class="icon fa fa-th-large"></span>
+        <h2>Remboursement et annulation</h2>
+    </div>
+    <img src="images/refund-cancellation.png" alt="e-School Saas" style="width: 100%;">
+    <br />
+</section>
+
+<!-- Contactez-nous -->
+<section class="section support" id="contactUs">
+    <div class="sec-title">
+        <span class="icon fa fa-support"></span>
+        <h2>Contactez-nous</h2>
+    </div>
+    <br />
+    <div class="sec-content">
+        <h4>WRTeam est une équipe de développeurs spécialisés dans les applications et les applications web. Contactez-nous pour savoir comment nous pouvons vous aider ou pour du travail en freelance.
+        </h4>
+        <h4>Visitez-nous : <a href="https://wrteam.in/" target="_blank">https://wrteam.in</a></h4>
+        <h4>Envoyez-nous un email : <a href="mailto:support@wrteam.in" target="_blank">support@wrteam.in</a></h4>
+        <br />
+        <h4>Merci beaucoup.</h4>
+    </div>
+</section>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/scrollbar.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="js/jquery.highlight.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
